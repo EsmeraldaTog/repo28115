@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="" href="../css/estilos.css">
+    <title>Document</title>
+</head>
+<body class="contenedor__contacto">
+    
+    <header class="header">
+        <img class ="header__logo" src="../assets/logo.jpg " alt =logocafelocal ">
+        <nav class="header__nav">
+            <ul class="header__list">
+            <li class="header__Item"><a class="header__link" href = "../index.html"">Inicio</a></li>
+            <li class="header__Item"><a class="header__link" href= "../secciones/nosotros.html">Nosotros</a></il>
+            <li class="header__Item"><a class="header__link" href="../secciones/menu.html">Menu</a></li>
+            <li class="header__Item"><a class="header__link" href ="../secciones/surcursales.html">Sucursales</a></li>
+            <li class="header__Item"><a class="header__link" href="../secciones/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+    <main>
+
+        <section class= "seccion__contacto">
+            <span class="titular__contacto">CONTACTANOS</span>
+        <p class="parrafo__contacto">Sus opiniones son importantes para nosotros, ya sea una pregunta simple o una sugerencia valiosa
+            Abrimos de lunes a viernes de 8:30 a 18:00 y los sábados de 8:30 a 15:00. 
+            Puede llamarnos por teléfono o enviarnos un correo electrónico directamente.</p>
+            <div class="formulario1"><form class="formulario__contacto" action="#" method="GET" autocomplete="on">
+                <fieldset>
+                    <legend> FORMULARIO DE CONTACTO</legend>
+                    <label class= "etiqueta" for="name">Nombre</label>
+                    <input class="control" type="text" name="user_name" id="name" placeholder="Introduzca su nombre">
+                   
+                    <label class="etiqueta" for="email">Correo electronico</label>
+                    <input class="control" type="email" name="user_mail" id="mail" placeholder="Introduzca su correo">
+                  
+                    <label class="etiqueta" for ="asunto">Asunto</label>
+                    <input class="control" type="text" name="asunto_tema" id="asunto">
+                   
+                    <label class="etiqueta">Sucursal Visitada</label>
+                    <label for="control__radio">
+                    <input class="control--"type="radio" id="html" name="sucursal_visitada" value="sucursal">
+                    <label class="etiqueta--" for="sucursalFerrocarril">Ferrocarril</label>
+
+                    <input class="control--" type="radio" id="fracc" name="sucursal_visitada" value="fraccionamiento">
+                    <label class="etiqueta--" for="fracc">Fraccionamiento</label>
+                    <input class="control--" type="radio" id="reforma" name="sucursal_visitada" value="reforma">
+                    <label class="etiqueta--" for="reforma">Reforma</label>
+</label>
+                    <label class="etiqueta" for="descripcion">Mensaje</label>
+                   <textarea class="control" name="mensaje" rows="2" cols="20" placeholder="sus opiniones son importantes para nosotros describa aqui su pregunta simple o una sugerencia valiosa"></textarea>
+                    <!--<input type= "text" name="mensaje" id="descripcion" placeholder="sus opiniones son importantes para nosotros describa aqui su pregunta simple o una sugerencia valiosa">-->
+                    <input type="submit" value="ENVIAR"> <input type="reset" value="BORRAR">
+                </fieldset>
+                
+              
+            </form></div>
+
+           
+        </section>
+
+</main>
+
+<footer class= "redes__footer">
+    <h2 class= "redes__titulo">SIGUENOS EN NUESTRAS REDES SOCIALES</h2>
+    <div class= "contenedor__footer">
+       <ul class="header__list2">
+                <li class="header__Item"><a class="header__link" href = "./index.html"">Inicio</a></li>
+                <li class="header__Item"><a class="header__link" href= "../secciones/nosotros.html">Nosotros</a></il>
+                <li class="header__Item"><a class="header__link" href="../secciones/menu.html">Menu</a></li>
+                <li class="header__Item"><a class="header__link" href ="../secciones/surcursales.html">Sucursales</a></li>
+                <li class="header__Item"><a class="header__link" href="../secciones/contacto.html">Contacto</a></li>
+                </ul>
+        <div class="redes"><a class= "imagen__redes" href="https://www.facebook.com/cafelocalferrocarriloax"><img class="imagen__facebook" src="../assets/Facebook_logo.png" alt=""></a>
+        <a class= "imagen__redes" href="https://www.facebook.com/cafelocalferrocarriloax"><img class="imagen__instagram" src="../assets/logo_instagram.png" alt=""></a>
+        <a class= "imagen__redes" href="https://www.instagram.com/cafelocaloax/"><img class="imagen__whatsapp" src="../assets/whatsapp_logo.png" alt=""></a>
+  </div>
+          <div> 
+        <img class ="footer__logo" src="../assets/logo.jpg " alt =logocafelocal">
+  
+        </div>
+    
+    
+  
+    
+  </footer>
+    
+</body>
+</html>

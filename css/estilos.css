@@ -317,7 +317,9 @@ grid-area: footer;
 
      .listado {
        display: flex;
-                flex-direction: column;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.5rem;
 
       }
       .imagen_menu{
@@ -326,7 +328,7 @@ grid-area: footer;
       }
 
       .button__menu{
-        width: 30%;
+        width: 150px;
       }
 
 
@@ -414,17 +416,7 @@ grid-area: footer;
 .imagen__salado {
   width: 50%;
 }
-.titulo__alimentosdulces {
-  margin-top: 40px;
-  background-color: #d982a2;
-  margin: 20px;
-  padding: 20px;
-  display: block;
-  text-align: center;
-  width: 100%;
-  font-size: 2rem;
-  font-weight: bold;
-}
+
 
 .menu__dulce {
   display: flex;
@@ -620,7 +612,9 @@ grid-area: footer;
   .formulario__contacto {
       
       padding-left:  20px;
-      background-color:#B4D9B6;
+      /*background-color:#B4D9B6;*/
+      background-image: linear-gradient(to left bottom, #6fbfbf, #6cbfbd, #69bfbb, #66bfb9, #63bfb6);
+
       border-radius: 20px;
       width: 600px;
      

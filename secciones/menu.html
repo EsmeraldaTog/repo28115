@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,31 +27,31 @@
 
 
     <main class="contenedor__menu">
-    <h1 class="titular__menu">NUESTRO MENU</h1>
+    <h1 data-aos="fade-up" data-aos-duration="3000" class="titular__menu">NUESTRO MENU</h1>
             <p class="parrafo__carta">Hemos preparado un menú especial compuesto por ingredientes criollos, hierbas locales y frutas de Temporada.
             Recuerda que todos nuestros alimentos son preparados en el momento, por lo que te pedimos seas paciente
             Sigamos apoyando el consumo local</p>
         
 
-            <section class="grid__menu">
-                <div class= "listado"><p class="texto__menu">Desayunos</p>
+            <section  class="grid__menu">
+                <div data-aos="flip-left" data-aos-duration="4000" class= "listado"><p class="texto__menu">Desayunos</p>
                 <img class= "imagen_menu" src="../assets/cafes_2.jpg" alt="">
-                <button name="button__menu">Click me</button></div>
-                <div class="listado"><p  class="texto__menu">menu salado</p>
+                <button class= "button__menu" name="button__menu">Click me</button></div>
+                <div data-aos="flip-left" data-aos-duration="4000" class="listado"><p  class="texto__menu">menu salado</p>
                 <img class= "imagen_menu" src="../assets/cafes_2.jpg" alt="">
-                <button name="button__menu">Click me</button></div>
-                <div class="listado"><p class="texto__menu">menu dulce</p>
+                <button class= "button__menu" name="button__menu">Click me</button></div>
+                <div data-aos="flip-left" data-aos-duration="4000" class="listado"><p class="texto__menu">menu dulce</p>
                 <img class= "imagen_menu" src="../assets/cafes_2.jpg" alt="">
-                <button name="button__menu">Click me</button></div>
-                <div class="listado"><p  class="texto__menu">bebidas calientes</p>
+                <button class= "button__menu" name="button__menu">Click me</button></div>
+                <div data-aos="flip-left" data-aos-duration="4000" class="listado"><p  class="texto__menu">bebidascalientes</p>
                 <img class= "imagen_menu" src="../assets/cafes_2.jpg" alt="">
-                <button name="button__menu">Click me</button></div>
-                <div class="listado"><p  class="texto__menu">Bebidas Frias</p>
+                <button class= "button__menu"  name="button__menu">Click me</button></div>
+                <div data-aos="flip-left" data-aos-duration="4000" class="listado"><p  class="texto__menu">Bebidas Frias</p>
                 <img class= "imagen_menu" src="../assets/cafes_2.jpg" alt="">
-                <button name="button__menu">Click me</button></div>
-                <div class="listado"><p  class="texto__menu">especialidades</p>
+                <button class= "button__menu" name="button__menu">Click me</button></div>
+                <div data-aos="flip-left" data-aos-duration="3500" class="listado"><p  class="texto__menu">especialidades</p>
                 <img class= "imagen_menu" src="../assets/cafes_2.jpg" alt="">
-                <button name="button__menu">Click me</button></div>
+                <button class= "button__menu" name="button__menu">Click me</button></div>
             </section>
         </div>
 
@@ -79,7 +81,9 @@
                   
                     
                   </footer>
-
+                  <script>
+                    AOS.init();
+                  </script>
 
 </body>
 </html>

@@ -173,41 +173,96 @@ grid-area: footer;
   height: 40px;
 }
 
-h3 {
+.contenedor__sucursalprincipal {
+  background-color: white;
+  margin: 0 auto;
+  width: 80%;
+
+  display:grid;
+  grid-template-columns: repeat(2,auto);
+  grid-template-rows: repeat(3, auto);
+
+  grid-template-areas:
+  "header  header"
+  "principal principal"
+  "footer   footer";
+
+}
+
+
+.header {
+  grid-area: header;
+  }
+  
+ 
+  .sucursales {
+  grid-area: principal;
+  }
+
+  .redes__footer{
+    grid-area:footer;
+
+      }
+
+
+
+
+.titular__sucursal {
   text-align: center;
+   color:#C5D932;
 }
 
 .contenedor__sucursales {
   display: flex;
   flex-direction: column;
+  background-color: #BDE8F2;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: white;
+/*  color: white;*/
   font-size: 1.5rem;
 }
 
 .contenedor__sucursal1 {
   display: flex;
-  justify-content: flex-start;
-  margin-top: 100px;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .imagen__sucursal1 {
-  width: 550px;
-  height: 450px;
+  width: 250px;
+  height: 350px;
 }
 
 .contenedor__sucursal2 {
   display: flex;
-  justify-content: flex-end;
+  justify-content:center;
   margin-top: 100px;
 }
 .imagen__sucursal2 {
-  width: 650px;
-  height: 500px;
+  width: 250px;
+  height: 300px;
 }
 
+.button__sucursal1 {
+  background-color: #04BFBF;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  width: 50%;
+  margin-top:25px;
+}
+.text1{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
 .ubicacion {
-  color: #f2d680;
+  color: #04ADBF;
 }
 /*ventana menu*/
 .contenedor__menu {
@@ -245,7 +300,8 @@ h3 {
     grid-area:footer;
 
       }
- .grid__menu{
+
+      .grid__menu{
         /* Grid de 3cx4r */
         display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -270,6 +326,9 @@ h3 {
       .button__menu{
         width: 30%;
       }
+
+
+
 .titular__menu {
   margin: 20px;
   padding: 20px;
@@ -470,8 +529,9 @@ grid-area: footer;
 
 .contenedor__contacto {
   background-color: white;
+  margin: 0 auto;
+  width: 80%;
 
-  width: 100%;
 
   display:grid;
   grid-template-columns: repeat(2,auto);
